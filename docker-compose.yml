@@ -1,0 +1,11 @@
+version: '3.9'
+
+# I seem to put this in every dockerfile BUT "host : container"
+services:
+  tts-engine:
+    build:
+      dockerfile: ./Dockerfile
+    ports:
+      - '8124:8124'
+    volumes:
+      - './audio:/glados-tts/audio'
