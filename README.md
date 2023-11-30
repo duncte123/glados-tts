@@ -8,7 +8,7 @@ python3 glados-tts/glados.py
 
 the TTS Engine can also be used remotely on a machine more powerful then the Pi to process in house TTS: (executed from glados-tts directory
 ```console
-python3 engine-remote.py
+python3 engine.py
 ```
 
 Default port is 8124
@@ -36,5 +36,4 @@ If you want to install the TTS Engine on your machine, please follow the steps
 below.
 
 1. Download the model files from [`Google Drive`](https://drive.google.com/file/d/1TRJtctjETgVVD5p7frSVPmgw8z8FFtjD/view?usp=sharing) and unzip into the repo folder
-2. Install the required Python packages, e.g., by running `pip install -r
-   requirements.txt`
+2. Install the required Python packages, e.g., by running `pip install -r requirements.txt`
